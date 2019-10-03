@@ -1,0 +1,21 @@
+{
+  "name": "personal_website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "",
+    "build:watch": "",
+    "start:dev": "nodemon server.js"
+  },
+  "keywords": ["express", "pug", "webpack", "bootstrap4"],
+  "author": "Filip Marius Samuel",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nodemon": "^1.19.3",
+    "pug": "^2.0.4",
+    "webpack": "^4.41.0",
+    "webpack-cli": "^3.3.9"
+  }
+}
