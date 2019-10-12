@@ -4,18 +4,22 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "",
-    "build:watch": "",
+    "build": "pug src/index.pug --out .",
+    "build:watch": "pug --watch src/index.pug --out .",
     "start:dev": "nodemon server.js"
   },
-  "keywords": ["express", "pug", "webpack", "bootstrap4"],
-  "author": "Filip Marius Samuel",
+  "keywords": [
+    "express",
+    "pug",
+    "webpack",
+    "bootstrap4"
+  ],
+  "author": "effusive-lazyness",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
     "nodemon": "^1.19.3",
     "pug": "^2.0.4",
-    "webpack": "^4.41.0",
-    "webpack-cli": "^3.3.9"
+    "pug-cli": "^1.0.0-alpha6"
   }
 }
