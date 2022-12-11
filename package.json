@@ -17,7 +17,7 @@
   "author": "effusive-lazyness",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "nodemon": "^1.19.3",
     "pug": "^2.0.4",
     "pug-cli": "^1.0.0-alpha6"
